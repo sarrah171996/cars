@@ -1,0 +1,185 @@
+body{
+    overflow-x: hidden;
+}
+.contentWord{
+    color:  #1572D3 !important
+}
+
+.headerContent{
+    /* font-family: ; */
+    font-size: 48px;
+}
+
+.headerImg {
+    /* animation: 3s ease-in 1s infinite reverse both running  !important;
+    -webkit-animation: 3s ease-in 1s infinite reverse both running  !important; */
+    position: absolute;
+    top: 12%;
+    right: 0;
+    animation: moveImage 3s forwards;
+
+}
+
+
+
+@keyframes moveImage {
+    from {
+        transform: translateX(100vw);
+        -webkit-transform: translateX(100vw);
+        -moz-transform: translateX(100vw);
+        -ms-transform: translateX(100vw);
+        -o-transform: translateX(100vw);
+}
+    to {
+        transform: translateX(0);
+    }
+}
+
+
+
+.moveContent{
+    position: absolute;
+    top: 0;
+    bottom:  100%;
+    animation: moveContent 3s forwards;
+    -webkit-animation: moveContent 3s forwards;
+}
+
+
+@keyframes moveContent {
+    from {
+        transform: translatey(0);
+        -webkit-transform: translatey(0);
+        -moz-transform: translatey(0);
+        -ms-transform: translatey(0);
+        -o-transform: translatey(0);
+}
+    to {
+        transform: translatey(15vh);
+        -webkit-transform: translatey(15vh);
+        -moz-transform: translatey(15vh);
+        -ms-transform: translatey(15vh);
+        -o-transform: translatey(15vh);
+}
+}
+
+.headerSearch button{
+    background-color: #1572D3;
+    border-radius: 0%;
+
+    border-top-right-radius: 5px ;
+    border-bottom-right-radius: 5px ;
+    color: #fff;
+}
+
+.headerSearch input{
+    margin-right: 0 !important;
+    box-shadow: rgba(136, 165, 191, 0.48) 4px 5px 20px 5px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+    border-radius: 0px !important;
+    -webkit-border-radius: 0px !important;
+    -moz-border-radius: 0px !important;
+    -ms-border-radius: 0px !important;
+    -o-border-radius: 0px !important;
+
+}
+
+.headerBtn{
+    background-color: #1572d31a !important;
+    color: #0b5ed7 !important;
+    border: 1px solid #1572d31a !important;
+    padding: 5px 20px !important;
+    width: 20% !important;
+}
+
+.showAll{
+    border-color: #6c757d !important;
+    color: #6c757d !important;
+    width: 20% !important;
+
+}
+
+.showAll:hover{
+    cursor: pointer;
+    color: #fff !important;
+    background: #6c757d !important;
+}
+
+.headerSearch i{
+    background-color: #f8f9fa !important;
+    border: 1px solid #1572d31a !important;
+    border-top-left-radius: 5px ;
+    border-bottom-left-radius: 5px ;
+
+
+}
+
+
+.headerCards i{
+font-size: 40px;
+background-color: #0b5ed7;
+}
+
+.whyChooseBtn{
+
+    background-color: #1572d31a !important;
+    color: #0b5ed7 !important;
+    border: 1px solid #1572d31a !important;
+    padding: 5px 20px !important;
+ 
+}
+
+.tesemonial{
+    background: #f7fbff;
+}
+
+.tesemonial i{
+    color: #ffc107;
+    padding: 0 !important;
+}
+
+.card{
+    box-shadow: rgba(136, 165, 191, 0.48) -6px 5px 20px 5px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+
+}
+
+.headerInput{
+    background-color: #cedcff !important;
+    border: 1px solid #cedcff !important;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.landingInput{
+       background-color: #1572D3 !important;
+       border: #0b5ed7 !important;
+       color: #fff !important;
+   
+}
+
+.footer{
+    background-color: #051C34;
+    color : #fff;
+    font-size: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.footer i{
+    font-size: 20px;
+    color : #cedcff;
+
+
+}
+
+.footer span{
+    font-size: 15px !important;
+}
+
+.footerP{
+    font-size: 15px ;
+    margin: auto !important;
+    /* background-color: #ffc107; */
+    width: 75%;
+}

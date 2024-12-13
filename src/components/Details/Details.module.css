@@ -1,0 +1,13 @@
+.whyChoose{
+    background-color: #1572d31a !important;
+    color: #0b5ed7 !important;
+    border: 1px solid #1572d31a !important;
+    padding: 5px 20px !important;
+    width: 35% !important;
+    font-size: 15px;
+}
+
+
+.details span {
+    color: #6c757d !important;
+}
